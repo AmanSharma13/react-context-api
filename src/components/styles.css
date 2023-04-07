@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100vw;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.search{
+    /* display: flex; */
+    position: absolute;
+    float: left;
+}
+
+.nav{
+   
+    padding: 10px;
+    
+}
+
+.nav > li:hover{
+    color: turquoise;
+}
+
+
+.logo{
+    border: 2px dotted red ;
+}
+.prod{
+    display: inline;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: turquoise;
+}
