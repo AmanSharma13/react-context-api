@@ -2,19 +2,19 @@ import "./App.css";
 import Header from "./components/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
-import Cart from "./components/Cart";
+import CartPage from "./components/CartPage";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
+    <div className="App">
+      <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" componenet={Home} />
-          <Route path="/cart" componenet={Cart} />
+          <Route path="/" element={<Home />} />
+          <Route path="/cart" element={<CartPage />} />
         </Routes>
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
   );
 }
 

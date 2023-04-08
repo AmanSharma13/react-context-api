@@ -4,7 +4,7 @@
 }
 
 .navbar{
-    width: 100vw;
+    width: 98.5vw;
     background-color: greenyellow;
     display: flex;
     flex-direction: row;
@@ -45,4 +45,31 @@ a{
 
 a:hover{
     color: turquoise;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 25px;
+}
+
+.product{
+
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.productDesc{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.add{
+    margin: 2px;
+    padding: 5px;
 }
